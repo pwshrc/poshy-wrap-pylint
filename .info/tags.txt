@@ -1,0 +1,3 @@
+pylint
+poshy-wrap
+pwshrc
