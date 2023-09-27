@@ -11,6 +11,4 @@ function Invoke-PylintReportsDisabled {
     pylint --reports=n @args
 }
 Set-Alias -Name pylint-quick -Value Invoke-PylintReportsDisabled
-
-
-Export-ModuleMember -Function * -Alias *
+Export-ModuleMember -Function Invoke-PylintReportsDisabled -Alias pylint-quick
